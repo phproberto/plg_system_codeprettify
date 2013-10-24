@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" method="upgrade" group="system">
+	<name>PLG_SYS_CODEPRETTIFY</name>
+	<author>Roberto Segura</author>
+	<creationDate>October 2013</creationDate>
+	<copyright>Copyright (C) 2012-2013 Roberto Segura. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>roberto@phproberto.com</authorEmail>
+	<authorUrl>http://www.phproberto.com</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_SYS_CODEPRETTIFY_XML_DESC</description>
+
+	<files>
+		<folder>forms</folder>
+		<filename plugin="codeprettify">codeprettify.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_codeprettify.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_codeprettify.sys.ini</language>
+	</languages>
+	<media folder="media">
+		<folder>codeprettify</folder>
+	</media>
+	<params/>
+	<config>
+		<fields name="params" addfieldpath="plugins/system/codeprettify/forms/fields">
+			<fieldset name="basic">
+				<field
+					name="template"
+					type="templatelist"
+					default="prettify"
+					label="PLG_SYS_CODEPRETTIFY_FIELD_TEMPLATE_LABEL"
+					description="PLG_SYS_CODEPRETTIFY_FIELD_TEMPLATE_DESC"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
