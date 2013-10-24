@@ -4,6 +4,8 @@
 
 System plugin for code highlighting based on the [Google Code Prettify](http://google-code-prettify.googlecode.com) library  
 
+See it in action in my blog. [Sample article](http://phproberto.com/en/blog/8-joomla-load-jform-post-data-with-jinput)  
+
 ## Google Code Prettify features
 
 * Template support
